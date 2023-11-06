@@ -2,5 +2,5 @@ def add_numbers(x, y):
     return x + y
 
 if __name__ == "__main__":
-    """ main method """
+    """ main method 123 """
     print(add_numbers(1, 5))
