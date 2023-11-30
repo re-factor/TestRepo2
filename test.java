@@ -1,14 +1,4 @@
-public class ComplexConditional {
-    public static void main(String[] args) {
-        int x = 10;
-        int y = 20;
-        boolean condition1 = true;
-        boolean condition2 = false;
-
-        if (x > 0 && y < 30 || condition1 && (x + y < 100 || condition2)) {
-            System.out.println("Complex conditions satisfied!");
-        } else {
-            System.out.println("Complex conditions not satisfied!");
-        }
-    }
-}
+public class SuperDirtyCode {
+    public static void main(String[] args) {int x=5;int y=10;boolean flag=true;if(x>3&&y<12||flag==true){System.out.println("Dirty Code is Fun!");}else{System.out.println("Clean Code is Overrated!");}
+    for(int i=0;i<5;i++){if(i%2==0){System.out.println("Messy Loops FTW!");}else{System.out.println("Who needs indentation anyway?";}}
+    System.out.println("This is just the beginning of the chaos!");}
