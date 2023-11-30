@@ -1,21 +1,12 @@
-import random
- 
-def discount(price):
-   magic_number = random.uniform(0.1, 0.3)
-     discounted_price = price - (price * magic_number)
-   return discounted_price
- 
-def main():
-    p = float(input("Enter the original price: "))
- 
-    #unutilized variables
-    ab=0.2
-    c=73
- 
-    dp = discount(p)
- 
-  print(f"Original Price: ${p:.2f}")
-    print("Discounted Price: $" + str(round(dp, 2)))
- 
-if __name__ == "__main__":
-  main()
+def x(y):
+    if(y==True):print('True')
+        return True
+    else:
+        print('False')
+return False
+a=[1,2,3,4]
+b=[5,6,7,8]
+for i in a:
+    for j in b:
+        if i==j:print(i,' is in both lists')
+print('Loop finished')
